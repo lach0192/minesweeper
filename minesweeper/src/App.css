@@ -1,0 +1,68 @@
+.gameBtn {
+  background-color: #777;
+  width: 33px;
+  height: 33px;
+  color: #777;
+  margin: 2px;
+}
+
+.btnGameover {
+  background-color: rgb(123, 1, 1);
+  width: 33px;
+  height: 33px;
+  color: #ddd;
+  margin: 2px;
+}
+
+.winningBtn {
+  background-color: green;
+  width: 33px;
+  height: 33px;
+  color: #eee;
+  margin: 2px;
+}
+
+.clicked {
+  background-color: #555;
+  width: 33px;
+  height: 33px;
+  color: white;
+  margin: 2px;
+}
+
+.gameover {
+  color: orange;
+}
+
+.header {
+  padding-bottom: 1rem;
+}
+
+.gameTable {
+  align-content: center;
+  display: inline-flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.newGameBtn {
+  height: 32px;
+  display:  flex;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.sliders {
+  margin-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.sliderSpacing {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
