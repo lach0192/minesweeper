@@ -1,0 +1,15 @@
+{ % load render_bundle from webpack_loader % }
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>MineSweep</title>
+  </head>
+  <body>
+    <div id="container">
+     This is where React will be mounted
+    </div>
+    { % render_bundle 'main' % }
+  </body>
+</html>
