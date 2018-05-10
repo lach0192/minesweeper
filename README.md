@@ -1,7 +1,7 @@
 # minesweeper
 MineSweeper Game built with React
 
-Frontend in /GameOnly
+Frontend in /ReactOnly
 
 Backend in /Django
 
